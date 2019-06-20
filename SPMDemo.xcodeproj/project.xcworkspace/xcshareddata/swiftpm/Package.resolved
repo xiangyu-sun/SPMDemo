@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BowlingKit",
+        "repositoryURL": "git@github.com:xiangyu-sun/BowlingKit.git",
+        "state": {
+          "branch": null,
+          "revision": "5de4052e132258ce2de6812e6d29aec1dd6f44ca",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
