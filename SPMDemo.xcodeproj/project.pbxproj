@@ -16,6 +16,7 @@
 		460BFAEC22BBCCAF00575BE6 /* SPMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BFAEB22BBCCAF00575BE6 /* SPMDemoTests.swift */; };
 		460BFAF722BBCCAF00575BE6 /* SPMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BFAF622BBCCAF00575BE6 /* SPMDemoUITests.swift */; };
 		460BFB0A22BBD51A00575BE6 /* BowlingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 460BFB0922BBD51A00575BE6 /* BowlingKit */; };
+		46B32D8222BD418400D4DC0F /* AutoplayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B32D8122BD418400D4DC0F /* AutoplayContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		460BFAF222BBCCAF00575BE6 /* SPMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460BFAF622BBCCAF00575BE6 /* SPMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMDemoUITests.swift; sourceTree = "<group>"; };
 		460BFAF822BBCCAF00575BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B32D8022BD3F3400D4DC0F /* BowlingKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BowlingKit; path = ../../DesktopCode/BowlingKit; sourceTree = "<group>"; };
+		46B32D8122BD418400D4DC0F /* AutoplayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoplayContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		460BFAC822BBCCAE00575BE6 = {
 			isa = PBXGroup;
 			children = (
+				46B32D8022BD3F3400D4DC0F /* BowlingKit */,
 				460BFAD322BBCCAE00575BE6 /* SPMDemo */,
 				460BFAEA22BBCCAF00575BE6 /* SPMDemoTests */,
 				460BFAF522BBCCAF00575BE6 /* SPMDemoUITests */,
@@ -105,6 +109,7 @@
 				460BFAD422BBCCAE00575BE6 /* AppDelegate.swift */,
 				460BFAD622BBCCAE00575BE6 /* SceneDelegate.swift */,
 				460BFAD822BBCCAE00575BE6 /* ContentView.swift */,
+				46B32D8122BD418400D4DC0F /* AutoplayContentView.swift */,
 				460BFADA22BBCCAF00575BE6 /* Assets.xcassets */,
 				460BFADF22BBCCAF00575BE6 /* LaunchScreen.storyboard */,
 				460BFAE222BBCCAF00575BE6 /* Info.plist */,
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460BFAD522BBCCAE00575BE6 /* AppDelegate.swift in Sources */,
+				46B32D8222BD418400D4DC0F /* AutoplayContentView.swift in Sources */,
 				460BFAD722BBCCAE00575BE6 /* SceneDelegate.swift in Sources */,
 				460BFAD922BBCCAE00575BE6 /* ContentView.swift in Sources */,
 			);

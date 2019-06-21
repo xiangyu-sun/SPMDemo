@@ -9,8 +9,27 @@
 import SwiftUI
 import BowlingKit
 struct ContentView : View {
+    @State var playResultInfomation: String = "Tap throw to start"
+    var bowlingBot = BowlingBot()
+    
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text(playResultInfomation)
+             .font(.largeTitle)
+            Button(action: throwNextBall) {
+                Text("Throw")
+            }
+            .font(.largeTitle)
+        }
+    }
+    
+    func throwNextBall() {
+        do {
+            playResultInfomation = "\(try bowlingBot.rollNextBall())"
+        } catch {
+            playResultInfomation = "Game finished"
+        }
+        
     }
 }
 
